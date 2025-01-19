@@ -7,3 +7,4 @@ const kafka = new Kafka({
 })
 
 module.exports = { kafka }
+

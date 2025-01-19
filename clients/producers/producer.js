@@ -6,8 +6,8 @@ async function produce () {
         await producer.connect()
 
         await producer.send({
-                topic: "collectdata",
-                messages: [{value: "this is from the app"}]
+                topic: "node-topic",
+                messages: [{value: "testing node producer"}]
         })
 
         await producer.disconnect()

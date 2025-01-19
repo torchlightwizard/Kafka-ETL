@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:producer": "node clients/producers/producer.js",
+    "start:consumer": "node clients/consumers/consumer.js"
   },
   "keywords": [],
   "author": "",
